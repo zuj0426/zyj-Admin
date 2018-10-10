@@ -1,0 +1,358 @@
+/* ------------------------------------------
+  样本样式
+--------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 链接 */
+
+
+/* 链接 */
+input, button, textarea, select, optgroup, option {
+	font: inherit;
+}
+input {
+	text-align: inherit;
+}
+
+ul,li,ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float:left;
+}
+
+
+/*common*/
+.fr {float:right !important;}
+.fl {float:left !important;}
+.c {text-align:center;}
+.r {text-align:right;}
+.l {text-align:left;}
+.fw { font-weight:bold;}
+.hide {display:none;}
+.text-decoration{ text-decoration:none;}
+.disp-table {display:table;}
+.disp-cell {display:table-cell;}
+.disp-inline-b {display:inline-block;*zoom:1;*display:inline;}
+.disp-block {display:block;}
+.disp-inline {display:inline;}
+.posi-a {position:absolute;}
+.posi-r {position:relative;}
+.posi-f {position:fixed;}
+.userNone{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-o-user-select: none; user-select: none;}
+.nopadding {padding:0 !important;}
+.nomargin {margin:0 !important;}
+.nomargin {margin:0 auto !important;}
+.noborder{border:none;}
+.pointer {cursor:pointer;}
+.scroll{ overflow:auto;}
+
+
+/*blank*/
+.mgt5 {margin-top:5px;}
+.mgl5 {margin-left:5px;}
+.mgr10 {margin-right:10px;}
+.mg10 { margin:10px 10px 10px 10px;}
+
+.pdt10{ padding-top:10px;}
+.pdr10{ padding-right:10px;}
+.pdl10{ padding-left:10px;}
+.pdb10{ padding-bottom:10px;}
+.pd10{padding:10px 10px 10px 10px;}
+.pd50_lr{padding:0px 50px 0px 50px;}
+
+/* border:线的样式*/
+.borb1{ border-bottom:1px solid #d9d9d9;}
+
+
+/*font size*/
+.fsz6 {font-size:6px;}
+.fsz9 {font-size:9px;}
+.fsz11 {font-size:11px;}
+.fsz12 {font-size:12px;}
+.fsz14 {font-size:14px;}
+.fsz16 {font-size:16px;}
+.fsz18 {font-size:18px;}
+.fsz20 {font-size:20px;}
+.fsz24 {font-size:24px;}
+.fsz30 {font-size:30px;}
+.fsz32 {font-size:32px;}
+.fsz36 {font-size:36px;}
+
+/*font family*/
+
+/*line-height*/
+.line_h5 {line-height:5px;}
+.line_h18 {line-height:18px;}
+.h_min{ min-height:1px;}
+
+/*width*/
+.w_100_percent{ width: 100%;}
+.w_460{ width: 460px;}
+.w_520{ width: 520px;}
+
+/*height*/
+.h_auto{ height:auto;}
+.h_16{ height:16px;}
+.h_20{ height:20px;}
+.h_120{ height:120px;}
+
+/*color*/
+.c_white{color:#fff;}
+.c_000{color:#000;}
+.c_666{color:#666666;}
+.bg_f{background:#FFF;}
+.bg_000{background:#000;}
+.bg_f8f8f8{background:#f8f8f8;}
+
+
+/*alpha*/
+ 
+.t_alpha25{filter:alpha(opacity=25);  
+	-moz-opacity:0.25;  
+	-khtml-opacity: 0.25;  
+	opacity: 0.25;}
+.t_alpha45{filter:alpha(opacity=55);  
+-moz-opacity:0.45;  
+-khtml-opacity: 0.45;  
+opacity: 0.45;  }
+.t_alpha75{filter:alpha(opacity=25);  
+-moz-opacity:0.75;  
+-khtml-opacity: 0.75;  
+opacity: 0.75;  }
+.t_alph87a{filter:alpha(opacity=87);  
+-moz-opacity:0.87;  
+-khtml-opacity: 0.87;  
+opacity: 0.87;}
+.t_alpha90{filter:alpha(opacity=10);  
+-moz-opacity:0.9;  
+-khtml-opacity: 0.9;  
+opacity: 0.9;  }
+
+
+/*border-radius*/
+.border-radius{   
+	-moz-border-radius: 3px;      /* Gecko browsers */    
+	-webkit-border-radius: 3px;   /* Webkit browsers */    
+	border-radius:3px;  
+	}
+
+.warp_bg{ background: #f8f8f8; width: 100%; min-height: 1px;}
+.warp_box{ width: 1000px; margin: 0 auto;}
+
+
+/*不知道样式有没有重叠，稍后整理*/
+/* ------------------------------------------
+  样本样式
+--------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{ font-family:"Microsoft Yahei", "微软雅黑", Tahoma, Arial, sans-serif}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 链接 */
+
+
+/* 链接 */
+input, button, textarea, select, optgroup, option {
+	font: inherit;
+}
+input {
+	text-align: inherit;
+}
+
+ul,li,ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float:left;
+}
+
+
+/*common*/
+.fr {float:right !important;}
+.fl {float:left !important;}
+.c {text-align:center;}
+.r {text-align:right;}
+.l {text-align:left;}
+.fw { font-weight:bold;}
+.hide {display:none;}
+.text-decoration{ text-decoration:none;}
+.disp-table {display:table;}
+.disp-cell {display:table-cell;}
+.disp-inline-b {display:inline-block;*zoom:1;*display:inline;}
+.disp-block {display:block;}
+.disp-inline {display:inline;}
+.posi-a {position:absolute;}
+.posi-r {position:relative;}
+.posi-f {position:fixed;}
+.userNone{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-o-user-select: none; user-select: none;}
+.nopadding {padding:0 !important;}
+.nomargin {margin:0 !important;}
+.nomargin {margin:0 auto !important;}
+.noborder{border:none;}
+.pointer {cursor:pointer;}
+.scroll{ overflow:auto;}
+
+
+/*blank*/
+.mgt5 {margin-top:5px;}
+.mgl5 {margin-left:5px;}
+.mgl10 {margin-left:10px;}
+.mgr10 {margin-right:10px;}
+.mg10 { margin:10px 10px 10px 10px;}
+
+.pdt10{ padding-top:10px;}
+.pdr10{ padding-right:10px;}
+.pdl10{ padding-left:10px;}
+.pdb10{ padding-bottom:10px;}
+.pd10{padding:10px 10px 10px 10px;}
+.pd50_lr{padding:0px 50px 0px 50px;}
+.pd40_tb{padding:50px 0px 30px 0px;}
+
+/* border:线的样式*/
+.borb1{ border-bottom:1px solid #d9d9d9;}
+
+
+/*font size*/
+.fsz6 {font-size:6px;}
+.fsz9 {font-size:9px;}
+.fsz11 {font-size:11px;}
+.fsz12 {font-size:12px;}
+.fsz14 {font-size:14px;}
+.fsz16 {font-size:16px;}
+.fsz18 {font-size:18px;}
+.fsz20 {font-size:20px;}
+.fsz24 {font-size:24px;}
+.fsz30 {font-size:30px;}
+.fsz32 {font-size:32px;}
+.fsz36 {font-size:36px;}
+
+/*font family*/
+
+/*line-height*/
+.line_h5 {line-height:5px;}
+.line_h18 {line-height:18px;}
+.h_min{ min-height:1px;}
+
+/*width*/
+.w_100_percent{ width: 100%;}
+.w_460{ width: 460px;}
+.w_520{ width: 520px;}
+.w_620{ width: 620px;}
+
+/*height*/
+.h_auto{ height:auto;}
+.h_10{ height:10px;}
+.h_16{ height:16px;}
+.h_20{ height:20px;}
+.h_100{ height:100px;}
+.h_120{ height:120px;}
+
+/*color*/
+.c_white{color:#fff;}
+.c_000{color:#000;}
+.c_666{color:#666666;}
+.bg_f{background:#FFF;}
+.bg_000{background:#000;}
+.bg_f8f8f8{background:#f8f8f8;}
+
+
+/*alpha*/
+ 
+.t_alpha25{filter:alpha(opacity=25);  
+	-moz-opacity:0.25;  
+	-khtml-opacity: 0.25;  
+	opacity: 0.25;}
+.t_alpha45{filter:alpha(opacity=55);  
+-moz-opacity:0.45;  
+-khtml-opacity: 0.45;  
+opacity: 0.45;  }
+.t_alpha75{filter:alpha(opacity=25);  
+-moz-opacity:0.75;  
+-khtml-opacity: 0.75;  
+opacity: 0.75;  }
+.t_alph87a{filter:alpha(opacity=87);  
+-moz-opacity:0.87;  
+-khtml-opacity: 0.87;  
+opacity: 0.87;}
+.t_alpha90{filter:alpha(opacity=10);  
+-moz-opacity:0.9;  
+-khtml-opacity: 0.9;  
+opacity: 0.9;  }
+
+
+/*border-radius*/
+.border-radius{   
+	-moz-border-radius: 3px;      /* Gecko browsers */    
+	-webkit-border-radius: 3px;   /* Webkit browsers */    
+	border-radius:3px;  
+	}
+
+.warp_bg{ background: #f8f8f8; width: 100%; min-height: 1px;}
+.warp_box{ width: 1000px; margin: 0 auto;}
+.w_b{ width:1000px;}

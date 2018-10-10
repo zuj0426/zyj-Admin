@@ -1,0 +1,268 @@
+.weaver_scene{
+    width: 100%;
+    font-size: 12px;
+    font-family: Î¢ÈíÑÅºÚ;
+}
+
+.weaver_scene .weaver_scenetitle{
+  background: #fff;
+  color: #fff;
+  height:46px;
+  
+  
+}
+.weaver_scene .weaver_scenetitle  .weaver_scenetitlename{
+    font-size: 16px;
+    height: 46px;
+    line-height: 46px;
+    margin-left: 0px;
+    float: left;
+	color:#000;
+	font-weight:bold;
+}
+.weaver_scene .weaver_scenetitle  .weaver_sceneoption{
+    height: 46px;
+    line-height: 46px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+	color:#333;
+}
+.weaver_scene .weaver_scenetitle  .weaver_sceneoption:hover{
+    color: #2477e7;
+}
+.weaver_scene .weaver_scenemenus{
+    overflow: hidden;
+    background-color: #2166b9;
+	color:#fff;
+}
+.weaver_scene .weaver_scenemenus .weaver_scenemenusall{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+}
+.weaver_scene .weaver_scenemenus .weaver_scenemenusmore{
+    overflow: hidden;
+    text-align: right;
+    margin-right: 12px;
+    margin-top: 6px;
+    display: none;
+}
+.weaver_scene .moreicon{
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.weaver_scene .weaver_scenemenusmore span{
+    cursor: pointer;
+}
+
+.weaver_scene .weaver_scenemenus .weaver_scenemenu{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.weaver_scene .weaver_scenemenus .weaver_scenemenu:hover{
+    font-weight: bold;
+}
+.weaver_scene .weaver_scenemenus .weaver_active{
+    font-weight: bold;
+}
+
+.weaver_scene .weaver_scenecontent{
+    height: 450px;
+    background-color: #fff;
+	
+}
+.weaver_scene .weaver_scenecontent .weaver_scenesubmenus{
+    height: 100%;
+    background-color: #fff;
+    width: 120px;
+    float: left;
+    overflow: auto;
+    border-right: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	border-bottom: px solid #d9d9d9;
+	
+}
+.weaver_scene .weaver_scenecontent .weaver_scenesubmenu{
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+	border-bottom:1px solid #d9d9d9;
+}
+.weaver_scene .weaver_scenecontent .weaver_scenesubmenu:hover{
+    color: #2477e7;
+}
+
+.weaver_scene .weaver_scenecontent .weaver_scenesubmenu:hover{
+    color: #2477e7;
+}
+
+.weaver_scene .weaver_scenecontent .weaver_scenesubmenu.activemn{
+    background: #fff;
+	font-size:12px;
+	font-weight:bold;
+	color:#2477e7;
+}
+.weaver_scene .weaver_scenecontent .weaver_scenedescribe{
+    overflow: hidden;
+    height: 100%;
+    padding-left: 25px;
+	position: relative;
+}
+.weaver_scene .weaver_scenecontent .weaver_scenedeslists{
+    width: 210px;
+	float: left;
+	padding-top: 10px;
+	margin-right: 40px;
+}
+
+.weaver_scene .weaver_scenecontent .weaver_scenedeslist{
+    padding: 10px 0px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.weaver_scene .weaver_scenecontent .weaver_scenedeslist.activels{
+    color: #2477e7;
+}
+.hlight{
+    color: #2477e7;
+}
+.weaver_scene .weaver_scenecontent .weaver_scenedesslider{
+    height: 100%;
+    overflow: hidden;
+}
+.weaver_scene .weaver_scenecontent .weaver_scenedessliders{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.weaver_scene .weaver_scenecontent .weaver_scenedesslider{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+}
+
+.weaver_bannerwrapper{
+    width: 572px;
+    position: relative;
+}
+#content{
+    padding-top: 82px;
+}
+.contentwrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.weaver_banner img{
+    width: 100%;
+    height: 326px;
+    margin-top: 10px;
+}
+.scenes{
+    width: 770px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.scenes .scene{
+    width: 232px;
+    height: 262px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+.scenes .scene:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.scenes .scene .sceneinner{
+    width: 172px;
+    margin: 30px auto;
+}
+.scenetitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    font-family: 'Î¢ÈíÑÅºÚ';
+}
+.scenetitledes{
+    text-align: center;
+    color: #cbcbcb;
+}
+.apply_now{
+    width: 210px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #597ec4;
+    text-align: center;
+    color: #597ec4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.scene_img{
+    float: left;
+    margin-right: 1px;
+}
+.scene_des{
+    overflow: auto;
+    height: 100%;
+}
+.scene_des_title{
+    font-size: 18px;
+  margin: 0;
+  line-height: 22px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Î¢ÈíÑÅºÚ';
+}
+.scenes .scene.one{
+    background-color:#5B88DB ;
+}
+.scenes .scene.two{
+    background-color:#51C45C ;
+}
+.scenes .scene.three{
+    background-color:#94944E ;
+}
+.scene_des_detail{
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    margin-top: 30px;
+    padding-right: 12px;
+}
+.scene_dialog{
+     width: 1000px;
+    position: absolute;
+    top:72px;
+    display: none;
+
+}
+.weaver_banner ul li{
+  min-height:340px !important;
+}
+.scene.one:hover{
+  background-color: #5c95fe;
+}
+.scene.two:hover{
+  background-color: #46da54;
+}
+.scene.three:hover{
+  background-color: #b9b857;
+}

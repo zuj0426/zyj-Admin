@@ -1,0 +1,18 @@
+.folderContent {
+  position: relative;
+}
+
+.folderContent .jaf-close {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 32px;
+  height: 32px;
+  background-image: url('../img/new/jaf-close.png');
+}
+
+.folderContent .jaf-close:hover {
+  text-decoration: none;
+  background-image: url('../img/new/jaf-close-hover.png');
+}

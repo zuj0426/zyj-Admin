@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* Author: wjas */
+/* date to build: 2012-06-21*/
+/* last Modified Author: wjas */
+/* last Modified: 2014-07-12 */
+
+/* global definitions */
+body{margin:0px auto;padding:0px;text-align:center;background:#fff; font-size:12px; color:#000; font-family:  "宋体", "Microsoft YaHei", Helvetica, SimSun, "Segoe UI", Arial, Sans-Serif;}
+div,table,tr,td{margin:0px;padding:0px;font-size:12px;}
+form,ul,li,img,p{margin:0px;padding:0px;border:0px;}
+hr{margin:0; padding:0; border:0; line-height:1px;}
+h1,h2,h3,h4,h5{margin:0px;padding:0px;}
+ul,li{list-style-type:none;}
+input{outline:none}
+.box{width:100%; float:left; position:absolute; top:50%; margin:-320px 0 0; left:0;}
+.area{width:1000px; margin:0 auto;}
+
+.logintop{width:1000px; height:20px; margin:20px auto;}
+.logintop .logo{height:20px; float:left;}
+.logintop .menu{height:14px; float:right; margin:6px 0 0; line-height:14px; color:#b3b9bf; font-size:14px; text-align:left;}
+.logintop .menu a{color:#b3b9bf; text-decoration:none;}
+.logintop .menu a:hover{color:#808a94;}
+
+.loginbox{width:280px; height:360px; float:left; position:absolute; left:50%; top:50%; margin:-180px 0 0 190px; background:#fff; background:rgba(255,255,255,.9); border-radius:2px; box-shadow:0 0 10px rgba(0,0,0,.2); z-index:9999;}
+.loginbox h1{width:100%; height:50px; float:left; border-bottom:1px solid #ddd; color:#8b949b; font-size:16px; font-weight:bold; line-height:50px;}
+.loginbox input{width:200px; height:16px; padding:16px 8px 16px 30px; line-height:16px; font-size:14px; color:#ccc; text-align:left; margin:20px 20px 0; float:left; background:url("../images/logininputicon.png") no-repeat #fff; border:1px solid #ddd; border-radius:2px;}
+.loginbox input[type="text"]{background-position:8px top;}
+.loginbox input[type="password"],#txt_password{background-position:8px bottom;}
+.loginbox input[type="text"]:focus, input[type="password"]:focus{outline:none !important; box-shadow:none; border:1px solid #09c; box-shadow:inset 0 3px 1px rgba(0,0,0,.1); color:#09c;}
+.loginbox input.on{color:#09c;}
+.loginbox .submit{width:240px; height:50px; margin:20px 20px 0; float:left; background:#19a3d1; text-align:center; font-size:16px; line-height:50px; font-weight:bold; border-radius:2px; cursor:pointer;}
+.loginbox .submit:hover{background:#09c;}
+.loginbox .submit:hover:active{background:#08c;}
+.loginbox .forget{width:240px; height:40px; margin:0 20px; float:left; line-height:40px; font-size:12px; color:#999; text-align:right;}
+.loginbox .forget a{color:#999; text-decoration:none;}
+.loginbox .forget a:hover{color:#09c; text-decoration:underline;}
+.loginbox .registbox{width:240px; height:40px; float:left; padding:10px 20px; background:#edf4fc; background:rgba(40,140,220,.1);}
+.loginbox .registbox span{height:40px; line-height:40px; float:left; text-align:left; font-size:14px; color:#999;}
+.loginbox .registbox a{width:140px; height:40px; line-height:40px; float:right; text-align:center; font-size:14px; color:#fff; background:#ff5555; text-decoration:none; cursor:pointer; border-radius:2px;}
+.loginbox .registbox a:hover{background:#FF4455;}
+.loginbox .registbox a:active{background:#ff3344;}
+.loginbox .tips{width:260px; float:right; line-height:30px; padding:10px; border-radius:2px; background:#fff; color:#666; line-height:30px; text-align:left; font-size:14px; position:absolute; top:0; right:300px; opacity:.9; box-shadow:0 0 10px rgba(0,0,0,.2); z-index:9999;}
+.loginbox .tips b{width:30px; height:30px; float:left; font-size:30px; color:#fff; text-align:center; background:#f55; border-radius:15px; margin:0 8px 0 0;}
+.loginbox .tips span{height:30px; float:left; text-align:left;}
+.loginbox .tips a{color:#09c;}
+.loginbox .tips a:hover{color:#06c;}
+.loginbox .tips .tipstext{width:260px; float:left; line-height:24px; color:#999; text-align:left; border-top:1px solid #eee; padding:10px 0 0; margin:10px 0 0;}
+.loginbox .tips.accounttips{top:70px; display:none;}
+.loginbox .tips.posswordtips{top:140px; display:none;}
+.loginbox .tips.errortips{top:105px; display:none;}
+.loginbox .tips .triangle{height:0; width:0; border:10px solid #fff; border-color:transparent transparent transparent #fff; position:absolute; top:50%; right:-20px; margin:-10px 0 0;}
+.windowshadow{width:100%; height:100%; position:absolute; top:0; left:0; z-index:999; filter:alpha(Opacity=20); background:#000; background:rgba(0,0,0,.2); display:none;}
+
+#showcasebg{width:100%; height:500px; position:relative; text-align:center; color:#fff; overflow:hidden; width:expression(document.body.clientWidth <= 1000? "1000": "auto" ); min-width:1000px;}
+.showcase{width:100%; height:500px; position:absolute; text-align:left; top:0; left:0px;}
+.showcase .showarea{width:1000px; height:500px; margin:0 auto; position:relative;}
+.showcase .showarea .linkarea{width:650px; height:500px; position:absolute; float:left; top:0; left:50%; margin:0 0 0 -500px;}
+
+.key{position:absolute; width:80px; height:32px; float:left; bottom:20px; left:50%; margin:0 0 0 -40px; z-index:9999;}
+#prev_key, #next_key{width:32px; height:32px; float:left; cursor:pointer; background:url("../images/prevnext.png"); line-height:32px; text-align:left; text-indent:-10000px; overflow:hidden;}
+#prev_key{background-position:left top; float:left;}
+#next_key{background-position:right top; float:right;}
+#prev_key:hover{background-position:left bottom;}
+#next_key:hover{background-position:right bottom;}
+
+
+
+
+.bottom{width:1000px; margin:0 auto; padding:15px 0; clear:both;}
+.bottom a{text-decoration:none;}
+.bottom .info{width:1000px; height:18px; float:left; padding:5px 0;}
+.bottom .info .logo2{float:left; margin:0 20px 0 0;}
+.bottom .info span{height:36px; margin:0; float:right; overflow:hidden; text-align:left; font-size:12px; color:#808a94; line-height:20px;}
+.bottom .info a{color:#808a94;}
+.bottom .info a:hover{color:#555;}
+.bottom{opacity:0.6; transition:.5s ease;}
+.bottom:hover{opacity:1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

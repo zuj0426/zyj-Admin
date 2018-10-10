@@ -1,0 +1,80 @@
+body{
+    font-family: 微软雅黑;
+    font-size: 12px;
+}
+.mind_container h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+}
+.mind_container p{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #b9b9b9;
+}
+.mind_container .mind{
+    display: inline-block;
+    width: 170px;
+    height: 90px;
+    background-color: #5e84c8;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    cursor: pointer;
+}
+.mind_container .mind:hover, .mind_container .mind.active-tool{
+    background-color: #53c048;
+}
+.mind_container  .minds{
+    margin-bottom: 150px;
+}
+.mind_container .rgap{
+    margin-right: 15px;
+}
+.mind_container .vgap{
+    margin-bottom: 15px;
+}
+.minds  .i1{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-image: url("../imgs/gn_i1.png");
+    background-position:center center ;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.minds  .i2{
+    width: 70px;
+    height: 35px;
+    display: inline-block;
+    background-image: url("../imgs/gn_i2.png");
+    background-position:center center ;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.minds  .i3{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-image: url("../imgs/gn_i3.png");
+    background-position:center center ;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.minds  .i4{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-image: url("../imgs/gn_i4.png");
+    background-position:center center ;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#content{
+    padding-top: 72px;
+}
